@@ -6,10 +6,11 @@ namespace VariableExpressions
     {
         static void Main(string[] args)
         {
-
-            byte x = 5;
-            byte y = 10;
-            x = (byte)(x - y);
+            int y = 1;
+            { 
+                y += 9; 
+            }
+            int x = y + 2;
             Console.WriteLine(x);
             Console.Read();
         }
