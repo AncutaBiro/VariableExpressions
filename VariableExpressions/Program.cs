@@ -6,12 +6,11 @@ namespace VariableExpressions
     {
         static void Main(string[] args)
         {
-            int y = 1;
-            { 
-                y += 9; 
-            }
-            int x = y + 2;
-            Console.WriteLine(x);
+            int y = 2;
+            const int z = 5;
+            const bool v = z < 10;
+      
+            Console.WriteLine(v);
             Console.Read();
         }
     }
