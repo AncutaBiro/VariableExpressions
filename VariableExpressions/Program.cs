@@ -7,9 +7,9 @@ namespace VariableExpressions
         static void Main(string[] args)
         {
 
-            byte x = 250;
+            byte x = 5;
             byte y = 10;
-            x = (byte)(x + y);
+            x = (byte)(x - y);
             Console.WriteLine(x);
             Console.Read();
         }
